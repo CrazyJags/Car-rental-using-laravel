@@ -1,0 +1,189 @@
+body,html{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login form{
+    width: 400px;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(33, 33, 33, .5);
+}
+
+.login form .error{
+    font-size:12px;
+}
+
+.layout{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.layout .header{
+    height: 70px;
+    box-shadow: 1px  1px 1px rgba(33, 33, 33, .2);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.layout .header .left,.layout .header .right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.layout .header .left .logo{
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    width: 250px;
+    text-align: center;
+}
+
+
+
+.logo span{
+    margin: 0;
+    padding: 0;
+}
+
+.layout .page-content{
+    width: 100%;
+    flex-grow: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.layout .page-content .page{
+    width: 100%;
+    min-height: 55%;
+}
+
+.layout .page-content footer{
+    width: 100%;
+
+}
+
+.layout .page-content footer a{
+    color: black;
+    text-decoration: none;
+}
+
+.layout .page-content footer a:hover{
+    color: #007bff!important;
+}
+
+
+.layout .page-content .page .user-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.layout .content{
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: stretch;
+    justify-content:unsafe;
+}
+
+.layout .content .sidebar{
+    width: 250px;
+    height: 100%;
+    border-right: 1px solid rgba(33, 33, 33, .1);
+}
+
+.sidebar .user, .sidebar .link{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.sidebar .link i{
+    margin-left: 10px;
+    margin-right: 10px ;
+}
+
+.sidebar .link{
+    text-decoration: none;
+    color: black;
+
+}
+
+#sidebar.active{
+    margin-left: -250px;
+}
+
+.sidebar a.link:hover,.sidebar a.link:active{
+    color: #007bff!important;
+}
+
+.sidebar .user .gravatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.layout .content .page{
+    height: 100%;
+    overflow: auto;
+    flex-grow: 1;
+}
+
+
+.layout .header .right{
+    margin-right: 20px;
+
+}
+
+.layout .header .right a.link{
+    margin-left: 10px ;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+
+.layout .header .right a.link:hover{
+    color: #007bff;
+
+}
+
+.datepicker{
+    padding: 20px;
+}
+
+.owl-nav{
+    display: none;
+}
