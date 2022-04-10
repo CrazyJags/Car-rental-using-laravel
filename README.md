@@ -17,10 +17,8 @@ php artisan serve
 > Admin : admin@gmail.com|password
 
 
-### Membres du groupe
+### Done By
 
 
-GBANGBOCHE Olabissi
+Jagadeesh Chilukuri
 
-
-KPANOU Gilles
